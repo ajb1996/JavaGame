@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"testing","c":"CodeTests","l":"CodeTests()"},{"p":"testing","c":"CodeTests","l":"moraleChecker()"}]

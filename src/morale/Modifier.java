@@ -1,26 +1,31 @@
 package morale;
 
-public class Modifier {
+public class Modifier
+{
 
-	private String name;
-	private double modifier;
-	private String description;
+    private String name;
+    private double modifier;
+    private String description;
 
-	public Modifier(String n, double m, String d) {
-		name = n;
-		modifier = m;
-		description = d;
-	}
+    public Modifier(String n, double m, String d)
+    {
+	name = n;
+	modifier = m;
+	description = d;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName()
+    {
+	return name;
+    }
 
-	public double getModifier() {
-		return modifier;
-	}
+    public double getModifier()
+    {
+	return modifier;
+    }
 
-	public String getDesc() {
-		return description;
-	}
+    public String getDesc()
+    {
+	return description;
+    }
 }
